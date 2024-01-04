@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tweet {
+            display: flex;
+            flex-direction: row;
+            width: 420px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .pic-column {
+            margin-right: 10px;
+        }
+
+        .profile {
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+        }
+
+        .tweet-content {
+            flex: 1;
+        }
+
+        .header {
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        .username {
+            color: gray;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .content {
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .thumbnail {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(212, 212, 212);
+            margin-right: 10px;
+        }
+
+        .link-info {
+            flex: 1;
+        }
+
+        .site {
+            color: rgb(124, 124, 124);
+            margin-bottom: 3px;
+        }
+
+        .title {
+            line-height: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tweet">
+        <div class="pic-column">
+            <img class="profile" src="icons/unnamed.jpg">
+        </div>
+        <div class="tweet-content">
+            <div class="header">
+                <div class="name">Varin Mehta </div>
+                <div class="username">@vrnmht</div>
+            </div>
+            <div class="content">
+                How to ace Indian Certificate of Secondary Education examinations?
+            </div>
+            <div class="links">
+                <div class="thumbnail">
+                </div>
+                <div class="link-info">
+                    <div class="site">
+                        youtube.com
+                    </div>
+                    <div class="title">
+                        How to ace Indian Certificate of Secondary Education examinations?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
